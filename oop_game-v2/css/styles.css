@@ -28,6 +28,8 @@ body {
 	flex-direction: column;
 	display: flex;
 	height: 100vh;
+	background-image: url("Peru.jpg");
+	background-size: fill;
 }
 
 li,
@@ -60,6 +62,7 @@ button {
 	-o-transition: var(--transition);
 	transition: var(--transition);
 	cursor: pointer;
+	box-shadow: 0.5px 1px #8a8a8a;
 }
 
 #btn__reset {
@@ -102,6 +105,7 @@ button {
 	color: transparent;
 	background: var(--color-neutral-light);
 	border-radius: 5px;
+	box-shadow: 1px 2px #8a8a8a;
 }
 
 .space {
